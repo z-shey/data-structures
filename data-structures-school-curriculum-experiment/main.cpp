@@ -12,7 +12,7 @@ int main()
     }
     std::cout << std::endl;
 
-    bubbleSort(array, sizeof(array) / sizeof(array[0]));
+    bubble_sort(array, sizeof(array) / sizeof(array[0]));
 
     std::cout << "Sorted Array: ";
     for (int i = 0; i < sizeof(array) / sizeof(array[0]); i++)
